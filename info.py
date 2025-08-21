@@ -22,9 +22,9 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "8216877978:AAEtZbtRXyqTDHs1eIe0seLaiSm2IBV
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('')).split() 
-NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/62efbcc4e7580b76530ba.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/e215d12bfd4fa2155e90e.mp4")
+PICS = (environ.get('https://files.catbox.moe/zxwf2z.jpg')).split() 
+NOR_IMG = environ.get("NOR_IMG", "https://files.catbox.moe/71zq66.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://files.catbox.moe/es30mo.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/13702ae26fb05df52667c.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://files.catbox.moe/ukiw5m.jpg'))
 FSUB_IMG = (environ.get('FSUB_IMG', 'https://i.ibb.co/cShkPjcZ/x.jpg')).split() 
@@ -55,9 +55,9 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+Jo13VAOePDQ4NzJl')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Thizz_zoro')
 UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/+Jo13VAOePDQ4NzJl')
 
-AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "-1002883076778") # add multiple channels here, separated by single space
+AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "-1002694700188") # add multiple channels here, separated by single space
 AUTH_CHANNEL = [int(ch) for ch in AUTH_CHANNEL.strip().split()] if AUTH_CHANNEL else []
-AUTH_REQ_CHANNEL = environ.get('AUTH_REQ_CHANNEL', '-1002883076778') # add multiple channels here, separated by single space
+AUTH_REQ_CHANNEL = environ.get('AUTH_REQ_CHANNEL', '-1002694700188') # add multiple channels here, separated by single space
 AUTH_REQ_CHANNEL = [int(ch) for ch in AUTH_REQ_CHANNEL.strip().split()] if AUTH_REQ_CHANNEL else []
 
 IS_VERIFY = is_enabled('IS_VERIFY', True)
@@ -69,14 +69,14 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/+fuhw3bZ97NgxMzE1")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/+fuhw3bZ97NgxMzE1")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/+fuhw3bZ97NgxMzE1")
 
-SHORTENER_API = environ.get("SHORTENER_API", "99b81ac9880b318b51a2a291c2fc68d4e719ccf6")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "gplinks.com")
+SHORTENER_API = environ.get("SHORTENER_API", "a92b887385ad479ce9d1e361907d757ae11ac0b3")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "linkshortify.com")
 
-SHORTENER_API2 = environ.get("SHORTENER_API2", "99b81ac9880b318b51a2a291c2fc68d4e719ccf6")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "gplinks.com")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "a92b887385ad479ce9d1e361907d757ae11ac0b3")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "linkshortify.com")
 
-SHORTENER_API3 = environ.get("SHORTENER_API3", "99b81ac9880b318b51a2a291c2fc68d4e719ccf6")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "gplinks.com")
+SHORTENER_API3 = environ.get("SHORTENER_API3", "a92b887385ad479ce9d1e361907d757ae11ac0b3")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "linkshortify.com")
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "1200"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))
